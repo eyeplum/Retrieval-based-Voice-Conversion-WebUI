@@ -1,0 +1,13 @@
+[project]
+name = "rvc-executorch"
+version = "0.1.0"
+description = "ExecutorTorch integration for RVC voice conversion models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "executorch>=0.6.0",
+    "librosa>=0.11.0",
+    "numpy>=2.2.6",
+    "scipy>=1.15.3",
+    "torch>=2.7.0",
+]
