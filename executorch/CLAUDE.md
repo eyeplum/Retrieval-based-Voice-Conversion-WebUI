@@ -13,6 +13,13 @@ cd executorch/
 uv sync
 ```
 
+## Run
+
+```bash
+cd executorch/
+uv run <script.py>
+```
+
 ## Notes
 
 - This is an independent project from the parent RVC WebUI
